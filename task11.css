@@ -1,0 +1,93 @@
+.p1{
+  color: orange;  
+  font-family: sans-serif;
+  font-size: xx-large;
+  display: inline-block;
+  width: 250px;
+  
+}
+nav{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+button{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--secondary-color);
+    background-color: transparent;
+    font-size: larger;
+    cursor: pointer;
+}
+button:hover{
+    color: var(--hover-color);
+}
+.grid {
+    display: grid;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 45px;
+    width: 75px;
+}
+.b1,.b2,.b3,.b4 {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: inline-block; 
+}    
+.i1,.i2,.i3,.i4 {
+    max-width: 100%;
+    height: auto;
+    width: 50px;
+}
+.shoe {
+    display: inline-block;
+    position: relative;
+    bottom: 350px;
+    left: 250px;
+    height: 400px;
+    
+}
+.photo{
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+h1{
+    position: relative;
+    left: 500px;
+    bottom: 350px;
+    color: var(--tertiary-color);
+}
+.p2{
+    display: inline-block;
+    position: relative;
+    left: 500px;
+    bottom: 340px;
+    padding-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--tertiary-color);
+}  
+body {
+    overflow: hidden;
+    background-color:var(--primary-color);
+    transition: background-color 0.3s;
+}
+#moon{
+    height: 25px;
+   position: relative;
+   left: 1200px;
+   cursor: pointer;
+}
+:root{
+    --primary-color:rgb(255, 255, 255);
+    --secondary-color:gray;
+    --tertiary-color:black;
+    --hover-color:black;
+}
+.dark-mode{
+    --primary-color:black;
+    --secondary-color:white;
+    --tertiary-color: white;
+    --hover-color:orange;
+}
